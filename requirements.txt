@@ -1,0 +1,13 @@
+# Core dependencies for Brain Tumor Classification App
+# These versions are tested and compatible with Streamlit Cloud
+
+streamlit>=1.28.0
+torch>=2.0.0
+torchvision>=0.15.0
+Pillow>=10.0.0
+
+# Note: If you encounter issues on Streamlit Cloud with torch/torchvision,
+# you can specify CPU-only versions for faster deployment:
+# --extra-index-url https://download.pytorch.org/whl/cpu
+# torch==2.0.0+cpu
+# torchvision==0.15.0+cpu
