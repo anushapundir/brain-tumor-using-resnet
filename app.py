@@ -1,9 +1,3 @@
-"""
-Brain Tumor Classification App
-A Streamlit application for classifying brain tumor MRI images using a trained ResNet18 model.
-This is a student project and should NOT be used for actual medical diagnosis.
-"""
-
 import streamlit as st
 import torch
 import torch.nn as nn
